@@ -1,0 +1,54 @@
+C:\Users\DELL\AppData\Local\Temporary Projects\stud_sys\obj\Debug\stud_sys.vbprojResolveAssemblyReference.cache
+C:\Users\DELL\AppData\Local\Temporary Projects\stud_sys\obj\Debug\stud_sys.Form1.resources
+C:\Users\DELL\AppData\Local\Temporary Projects\stud_sys\obj\Debug\stud_sys.Resources.resources
+C:\Users\DELL\AppData\Local\Temporary Projects\stud_sys\obj\Debug\stud_sys.vbproj.GenerateResource.Cache
+C:\Users\DELL\AppData\Local\Temporary Projects\stud_sys\obj\Debug\stud_sys.vbproj.CoreCompileInputs.cache
+C:\Users\DELL\AppData\Local\Temporary Projects\stud_sys\bin\Debug\stud_sys.exe.config
+C:\Users\DELL\AppData\Local\Temporary Projects\stud_sys\bin\Debug\stud_sys.exe
+C:\Users\DELL\AppData\Local\Temporary Projects\stud_sys\bin\Debug\stud_sys.pdb
+C:\Users\DELL\AppData\Local\Temporary Projects\stud_sys\bin\Debug\stud_sys.xml
+C:\Users\DELL\AppData\Local\Temporary Projects\stud_sys\obj\Debug\stud_sys.exe
+C:\Users\DELL\AppData\Local\Temporary Projects\stud_sys\obj\Debug\stud_sys.xml
+C:\Users\DELL\AppData\Local\Temporary Projects\stud_sys\obj\Debug\stud_sys.pdb
+C:\Users\DELL\AppData\Local\Temporary Projects\stud_sys\obj\Debug\stud_sys.Admin_LoginForm1.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\bin\Debug\stud_sys.exe.config
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\bin\Debug\stud_sys.exe
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\bin\Debug\stud_sys.pdb
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\bin\Debug\stud_sys.xml
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.vbprojResolveAssemblyReference.cache
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.Admin_LoginForm1.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.Resources.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.vbproj.GenerateResource.Cache
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.vbproj.CoreCompileInputs.cache
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.exe
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.xml
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.pdb
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.LoginForm1.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.Add_Documents.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.Add_Student_Form.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.My_Documents.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.Student_Login_Form.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.My_Profile.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.Main.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.Form3.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.ViewDocAdmin.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\bin\Debug\Interop.AcroPDFLib.dll
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\bin\Debug\AxInterop.AcroPDFLib.dll
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\Interop.AcroPDFLib.dll
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\AxInterop.AcroPDFLib.dll
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.vbproj.ResolveComReference.cache
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.Form4.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.Form5.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.PdfViewForm.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.OfficeLoginForm.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.Office_ViewDoc.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.Office_ChangePassword.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.MarkAttendance.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.AttendanceReport.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.Admin_template.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.Add_Students_UC.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.Form8.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.Admin_Temp.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.StudentsTemp.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.OfficeTemp.resources
+D:\3yr_diploma\finalyr_project\stud_sys\stud_sys\obj\Debug\stud_sys.FrontPage.resources

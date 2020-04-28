@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C18DBAD2-4776-4A19-A1D9-79789B70000E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>stud_sys.My.MyApplication</StartupObject>
+    <RootNamespace>stud_sys</RootNamespace>
+    <AssemblyName>stud_sys</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>stud_sys.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>stud_sys.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_Documents.Designer.vb">
+      <DependentUpon>Add_Documents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Documents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_LoginForm1.Designer.vb">
+      <DependentUpon>Admin_LoginForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_LoginForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Temp.Designer.vb">
+      <DependentUpon>Admin_Temp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Temp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AttendanceReport.Designer.vb">
+      <DependentUpon>AttendanceReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AttendanceReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="first_dbDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>first_dbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="first_dbDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>first_dbDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Student.Designer.vb">
+      <DependentUpon>Add_Student.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Student.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.vb">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.vb">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_template.Designer.vb">
+      <DependentUpon>Admin_template.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_template.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.vb">
+      <DependentUpon>Form8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontPage.Designer.vb">
+      <DependentUpon>FrontPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrontPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarkAttendance.Designer.vb">
+      <DependentUpon>MarkAttendance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MarkAttendance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OfficeTemp.Designer.vb">
+      <DependentUpon>OfficeTemp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeTemp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Office_ChangePassword.Designer.vb">
+      <DependentUpon>Office_ChangePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Office_ChangePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Office_Login.Designer.vb">
+      <DependentUpon>Office_Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Office_Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Office_ViewDoc.Designer.vb">
+      <DependentUpon>Office_ViewDoc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Office_ViewDoc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStudentsUC.Designer.vb">
+      <DependentUpon>AddStudentsUC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudentsUC.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StudentsTemp.Designer.vb">
+      <DependentUpon>StudentsTemp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StudentsTemp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewDocAdmin.Designer.vb">
+      <DependentUpon>ViewDocAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDocAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student_Login_Form.Designer.vb">
+      <DependentUpon>Student_Login_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student_Login_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My_Documents.Designer.vb">
+      <DependentUpon>My_Documents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My_Documents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm1.Designer.vb">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="My_Profile.Designer.vb">
+      <DependentUpon>My_Profile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My_Profile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Add_Documents.resx">
+      <DependentUpon>Add_Documents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_LoginForm1.resx">
+      <DependentUpon>Admin_LoginForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Temp.resx">
+      <DependentUpon>Admin_Temp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AttendanceReport.resx">
+      <DependentUpon>AttendanceReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Student.resx">
+      <DependentUpon>Add_Student.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_template.resx">
+      <DependentUpon>Admin_template.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontPage.resx">
+      <DependentUpon>FrontPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarkAttendance.resx">
+      <DependentUpon>MarkAttendance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfficeTemp.resx">
+      <DependentUpon>OfficeTemp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Office_ChangePassword.resx">
+      <DependentUpon>Office_ChangePassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Office_Login.resx">
+      <DependentUpon>Office_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Office_ViewDoc.resx">
+      <DependentUpon>Office_ViewDoc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStudentsUC.resx">
+      <DependentUpon>AddStudentsUC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentsTemp.resx">
+      <DependentUpon>StudentsTemp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewDocAdmin.resx">
+      <DependentUpon>ViewDocAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_Login_Form.resx">
+      <DependentUpon>Student_Login_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My_Documents.resx">
+      <DependentUpon>My_Documents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm1.resx">
+      <DependentUpon>LoginForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My_Profile.resx">
+      <DependentUpon>My_Profile.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="first_dbDataSet.xsc">
+      <DependentUpon>first_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="first_dbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>first_dbDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="first_dbDataSet.xss">
+      <DependentUpon>first_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="first_dbDataSet1.xsc">
+      <DependentUpon>first_dbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="first_dbDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>first_dbDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="first_dbDataSet1.xss">
+      <DependentUpon>first_dbDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

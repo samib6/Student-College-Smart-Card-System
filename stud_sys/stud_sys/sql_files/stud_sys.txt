@@ -1,0 +1,9 @@
+User_Id,Name,Address,Mobile_No,Email_Id
+1500040002,kanchan shownkeen,ulhasnagar,9874563214,kanchan212@gmail.com
+1500040003,chetan budhrani,Ulhasnagar,9896532147,chetanb@gmail.com
+1500040005,hrishikesh deshpande,churchgate ,9632145696,hdeshpande25@gmail.com
+1500040009,rajesh bhatia,mulund,7896541236,rajesh@gmail.com
+1500040100,Nisarg Shah,andheri,9874563214,nisarg@gmail.com
+1500040101,snehal,ghatkopar,7894561237,sneh@gmail.com
+1500040123,sakshi,mulund ,9696321456,sakshi@gmail.com
+1500040149,Seema varma,kurla-west,9654123696,seema@gmail.com
